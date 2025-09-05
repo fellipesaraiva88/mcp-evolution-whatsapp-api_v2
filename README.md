@@ -41,8 +41,8 @@ EVOLUTION_API_KEY=your-api-key-here
 
 | Environment | Steps | Command |
 |-------------|-------|---------|
-| **Local Development** | 1. Clone and install<br>2. Run in dev mode | `git clone https://github.com/aiteks-ltda/mcp-evo-api.git && cd mcp-evo-api && bun install`<br>`bun run dev` |
-| **Local Production** | 1. Clone and install<br>2. Build and run | `git clone https://github.com/aiteks-ltda/mcp-evo-api.git && cd mcp-evo-api && bun install`<br>`bun run build && bun run dist/main.js` |
+| **Local Development** | 1. Clone and install<br>2. Run in dev mode | `git clone https://github.com/fellipesaraiva88/mcp-evolution-whatsapp-api_v2.git && cd mcp-evolution-whatsapp-api_v2 && bun install`<br>`bun run dev` |
+| **Local Production** | 1. Clone and install<br>2. Build and run | `git clone https://github.com/aiteks-ltda/mcp-evolution-whatsapp-api_v2.git && cd mcp-evolution-whatsapp-api_v2 && bun install`<br>`bun run build && bun run dist/main.js` |
 | **Docker Compose** | Run with Docker Compose | `git clone https://github.com/aiteks-ltda/mcp-evo-api.git && cd mcp-evo-api`<br>`docker-compose up -d` |
 | **Docker** | Build and run container | `docker run -d -p 3000:3000 -e EVOLUTION_API_URL=yoururl -e EVOLUTION_API_KEY=yourkey --name mcp-evo-api ghcr.io/aiteks-ltda/mcp-evo-api:latest` |
 
